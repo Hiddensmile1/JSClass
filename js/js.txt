@@ -1,0 +1,48 @@
+//alert("working javascript ");
+console.log("working on the console");
+
+let userName = "seniorDev"; //global
+console.log(userName);
+
+function greet() {
+	let greetMe = "hello how are you?"; //local
+	console.log(greetMe);
+}
+
+greet();
+
+function san() {
+	console.log("hi guys welcome to class");
+}
+
+san();
+
+let user2 = "joseph ";
+let user3 = "sam";
+
+console.log(user2, user3);
+console.log(user2 + user3); //concatenation
+console.log("hello" + " " + user3 + " " + user2);
+console.log("hello", user3, user2);
+
+let num2 = 4;
+let num3 = 5;
+
+console.log(num2 + num3);
+
+function greetUser(myName) {
+	console.log("hi", myName, "hope you are doing good?");
+}
+
+greetUser("mpumi");
+
+function jojo(a, b, awe) {
+	console.log("hi", a);
+	console.log(a, b, awe);
+}
+jojo(45, "giddy", true);
+
+function hiGreet() {
+	// console.log("mpumi says hi");
+	alert("hi you just click me");
+}
