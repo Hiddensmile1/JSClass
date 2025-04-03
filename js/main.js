@@ -125,3 +125,33 @@ console.log(25 <= 25);
 if (3 > 12) {
 	console.log("opps hik");
 }
+
+// Questions
+// let score = 23;
+// 0 - 30  == f
+// 30 - 40 == E
+// 40 - 60 == C
+// 60 - 70 == B
+// 70 - 100  === A
+
+let score = prompt("whats your score?");
+
+if (score >= 0 && score <= 30) {
+	alert("you got F");
+}
+else if (
+	score >= 30 && score <= 40) {
+	alert("you got E");
+}
+else if (
+	score >= 40 && score <= 60) {
+	alert("you got C");
+} else if (
+	score >= 60 && score <= 70) {
+	alert("you got B");
+} else if (
+	score >= 70 && score <= 100) {
+	alert("you got A");
+} else {
+	alert("please enter a valid score");
+}
